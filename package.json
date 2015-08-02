@@ -1,0 +1,20 @@
+{
+  "name": "dokku-app-ssh",
+  "version": "0.0.1",
+  "description": "Runs app specific dokku commands in a child process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter=spec"
+  },
+  "author": "Richard Walker <digitalsadhu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "expect": "^1.8.0",
+    "mocha": "^2.2.5",
+    "standard": "^4.5.4"
+  },
+  "dependencies": {
+    "array-contains": "0.0.1",
+    "array-last": "^1.0.2"
+  }
+}
