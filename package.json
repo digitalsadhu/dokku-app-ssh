@@ -13,8 +13,5 @@
     "mocha": "^2.2.5",
     "standard": "^4.5.4"
   },
-  "dependencies": {
-    "array-contains": "0.0.1",
-    "array-last": "^1.0.2"
-  }
+  "dependencies": {}
 }
