@@ -1,6 +1,6 @@
 {
   "name": "dokku-app-ssh",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Runs app specific dokku commands in a child process.",
   "main": "index.js",
   "scripts": {
