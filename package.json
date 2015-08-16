@@ -1,6 +1,6 @@
 {
   "name": "dokku-app-ssh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates a dokku ssh command string from host, command and appName strings. Handles edge cases for you",
   "main": "index.js",
   "scripts": {
