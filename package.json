@@ -1,13 +1,25 @@
 {
   "name": "dokku-app-ssh",
   "version": "0.2.2",
-  "description": "Runs app specific dokku commands in a child process.",
+  "description": "Creates a dokku ssh command string from host, command and appName strings. Handles edge cases for you",
   "main": "index.js",
   "scripts": {
     "test": "mocha test --reporter=spec"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalsadhu/dokku-app-ssh.git"
+  },
+  "keywords": [
+    "dokku",
+    "ssh"
+  ],
   "author": "Richard Walker <digitalsadhu@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalsadhu/dokku-app-ssh/issues"
+  },
+  "homepage": "https://github.com/digitalsadhu/dokku-app-ssh#readme",
   "devDependencies": {
     "expect": "^1.8.0",
     "mocha": "^2.2.5",
